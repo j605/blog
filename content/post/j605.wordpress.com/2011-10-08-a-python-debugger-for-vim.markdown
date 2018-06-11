@@ -11,17 +11,19 @@ wordpress_id: 8
 "vim-debug" is a python debugger that is integrated into vim. This works like any other debugger but you don't have to come out of vim to debug.Before we get started ensure that the [python-pip](http://packages.ubuntu.com/search?keywords=python-pip) package is installed in your distro.For installing open a terminal and type :
 
 
-<blockquote>sudo apt-get install python-pip</blockquote>
+```sh
+sudo apt-get install python-pip
+```
 
 
 The package pip is an improved python package installer.Next we move onto installing the plugin which are essentially python scripts. To install type:
 
 
-<blockquote>
+```sh
 sudo pip install dbgp
 sudo pip install vim-debug
 install-vim-debug.py
-</blockquote>
+```
 
 
 Like any other vim command you type this command in comdline-mode.Here you start the session by the command

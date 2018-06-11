@@ -21,8 +21,10 @@ This is my first post from vim using vimpress.Because of having a low bandwidth 
 Here's how we start, download the script from [vim's site](http://www.vim.org/scripts/script.php?script_id=1953).Put the files blog.vim and blogsyntax.vim in ~/.vim/plugin folder ,if the folder does not exist create one. Open the blog.vim file and fill in your your username and password and site url in their respective places. Open vim and type in CmdLine
 
 
-<blockquote>:so ~/.vim/plugin/blog.vim
-:so ~/.vim/plugin/blogsyntax.vim</blockquote>
+```vim
+:so ~/.vim/plugin/blog.vim
+:so ~/.vim/plugin/blogsyntax.vim
+```
 
 
 now that you have successfully setup vimpress, you can happily blog away.

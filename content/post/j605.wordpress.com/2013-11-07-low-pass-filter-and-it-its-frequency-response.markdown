@@ -15,11 +15,9 @@ After hours and hours of getting a simple low pass filter to work, I couldn't he
 I wouldn't like to repeat what Ashwith has already written, but I would like to show the schema and results that you can obtain with ngspice as well as matplotlib which are as good as any commercial software that you would use. This is the schema that I have used. It is pretty simple to construct and following Ashwith's recommendation to change the config file will prove helpful as it will automatically fill in the refdes values for you. This is the schema I have used, the default model of the opamp works fine.
 
 
-[![lpf-active1](http://j605.files.wordpress.com/2013/11/lpf-active1.png?w=300)](http://j605.files.wordpress.com/2013/11/lpf-active1.png)
+![lpf-active1](http://j605.files.wordpress.com/2013/11/lpf-active1.png)
 
 
 You can use ngspice to simulate the circuit. Even though ngspice has an inbuilt plotter, matplotlib is more visually appealing. Before running ngspice you have to get the netlist, to get the netlist do `gnetlist -v -g spice-sdb -o lpf-active1.net lpf-active1.sch`. The verbose option will give you valuable debugging information. Start ngspice with the netlist and run the circuit. After simulation, you can use the inbuilt plotter or export the data for later use. To export do, `wrdata file v(1,3)`. Now you can use this script from ['return 1;'](http://return1.net/blog/2012/Jan/22/plotting-ngspice-results-with-python) to generate visually appealing graphs like the one below.
 
-[caption id="attachment_62" align="aligncenter" width="300"][![Frequency response characteristics of first order low pass filter.](http://j605.files.wordpress.com/2013/11/lpf-active1-response.png?w=300)](http://j605.files.wordpress.com/2013/11/lpf-active1-response.png) Frequency response characteristics of first order low pass filter.[/caption]
-
-.
+![Frequency response characteristics of first order low pass filter](http://j605.files.wordpress.com/2013/11/lpf-active1-response.png) Frequency response characteristics of first order low pass filter.

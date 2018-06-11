@@ -55,7 +55,7 @@ sdptool search dun | grep Channel
 When you run the command, you will be prompted for a pin in your mobile and that has to be entered in the terminal which is running bluez-simple-agent. You should have successfully connected right now. Now press ^C to exit the connection. For setting up the internet connection you have to edit /etc/wvdial.conf or create one. For guys using a different ISP, get your APN by googling(just change airtelgprs.in by your ISP's APN).
 
 
-```sh
+```ini
 [Dialer Defaults]
 Modem = /dev/rfcomm0 
 Init3 = AT+cgdcont=1,"IP","airtelgprs.com"

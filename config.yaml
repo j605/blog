@@ -3,6 +3,8 @@ disablePathToLower: true
 languageCode: en-us
 title: Jagan's blog
 theme: zen
+pygmentsCodefences: true
+pygmentsStyle: native
 
 params:
   contact: "info@example.org"

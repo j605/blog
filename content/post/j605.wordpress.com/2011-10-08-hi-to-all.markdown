@@ -1,0 +1,11 @@
+---
+author: j605
+comments: true
+date: "2011-10-08T09:55:41Z"
+link: https://j605.wordpress.com/2011/10/08/hi-to-all/
+slug: hi-to-all
+title: Hi to all
+wordpress_id: 5
+---
+
+Starting this blog right now is a surprise to even me. I am a tech loving person who is a bit reserved. I hope to come out with it with this blog. thats all for now, cheers!!

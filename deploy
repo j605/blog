@@ -1,2 +1,3 @@
 #! /bin/sh
-hugo && rsync -avz --delete public/ j605-web:/home/j605/www/html/blog
+hugo &&  sed -i 's/Times New Roman/PT Sans/g' public/css/styles.css
+rsync -avz --delete public/ j605-web:/home/j605/www/html/blog

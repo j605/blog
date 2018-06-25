@@ -1,3 +1,6 @@
 [submodule "themes/zen"]
 	path = themes/zen
 	url = https://themes.gohugo.io/hugo-theme-zen
+[submodule "themes/dusk"]
+	path = themes/dusk
+	url = https://github.com/gyorb/hugo-dusk

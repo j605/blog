@@ -2,17 +2,35 @@ baseURL: https://j605.tk/blog
 disablePathToLower: true
 languageCode: en-us
 title: Jagan's blog
-theme: zen
+theme: dusk
 pygmentsCodefences: true
 pygmentsStyle: native
+disqusShortname: j605
+SectionPagesMenu: "main"
 
 params:
-  contact: "info@example.org"
-  # copyright: "This site is licensed under a (https://creativecommons.org/licenses/by-sa/4.0/)."
-              # [Creative Commons Attribution-ShareAlike 4.0 International License]
-  dateformat: ""            # Set the date format, default to "2 January, 2006"
-  description: ""           # Set site description, used in meta tags and JSON-LD
   feedlinks: true           # Show feed links in the footer.
   poweredby: true           # Show powered by hugo in footer
   sidebar: true             # Show a sidebar to the right
   submitted: true           # Show author and date information for a post.
+
+  # dusk theme
+  colors:
+    # hugo-dusk colors
+    background: "#101010" # background color for the site
+    main: "#99cc66"
+    text: "#dbdbdb"
+    code-quote-bg: "#1D1F21" # background color for quotes and code blocks
+    copyright: "#404040" # copyright text color
+
+menu:
+  main:
+  - identifier: post
+    name: posts
+    weight: -130
+    url: /post/
+
+  - identifier: tag
+    name: tags
+    weight: -120
+    url: /tags/

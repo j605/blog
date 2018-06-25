@@ -1,5 +1,6 @@
 ---
-title: "Index"
+title: "about"
+menu: main
 date: 2018-06-11T14:08:58+02:00
 lastmod: 2018-06-11T14:08:58+02:00
 

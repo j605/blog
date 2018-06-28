@@ -49,7 +49,7 @@ So the expression is effectively decoded as
 
 A stack is used here for the purpose of branching since state has to saved between
 to come back and draw on the other side of the branch. The author of post[^1] also
-gives examples of how trees are generated in this way. Furthermore the system is
+gives examples of how trees are generated in this way. Furthermore, the system is
 parameterized to produced more realistic models of trees.
 
 This gives you a beautiful picture of an H-tree.

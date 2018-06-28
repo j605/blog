@@ -15,6 +15,7 @@ params:
   submitted: true           # Show author and date information for a post.
 
   # dusk theme
+  email: jagannathante@gmail.com
   colors:
     # hugo-dusk colors
     background: "#101010" # background color for the site

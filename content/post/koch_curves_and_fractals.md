@@ -15,9 +15,9 @@ since I had programmed some `koch` curves for an exercise in the Think Python
 book.
 
 Some pictures,
-![](creations/canvas.jpg)
+![Example 1](creations/canvas.jpg)
 
-![](creations/creation2.jpg)
+![Example 2](creations/creation2.jpg)
 and the code can be found on [github](https://github.com/j605/creations).
 
 The post on how to generate trees[^1]

@@ -53,10 +53,10 @@ gives examples of how trees are generated in this way. Furthermore, the system i
 parameterized to produced more realistic models of trees.
 
 This gives you a beautiful picture of an H-tree.
-![H-tree](creations/htree.svg)
+![H-tree](creations/htree.png)
 
 Instead of turning by 90° if you try 60°, a nice fractal is formed.
-![H-tree 60°](creations/htree-60.svg)
+![H-tree 60°](creations/htree-60.png)
 
 Julia code for the above drawings is provided below.
 ```julia

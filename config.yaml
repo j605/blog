@@ -7,6 +7,7 @@ pygmentsCodefences: true
 pygmentsStyle: native
 disqusShortname: j605
 SectionPagesMenu: "main"
+canonifyURLs: true
 
 params:
   feedlinks: true           # Show feed links in the footer.
@@ -24,6 +25,10 @@ params:
     code-quote-bg: "#1D1F21" # background color for quotes and code blocks
     copyright: "#404040" # copyright text color
 
+taxonomies:
+  category: categories
+  tag: tags
+
 menu:
   main:
   - identifier: post
@@ -35,3 +40,8 @@ menu:
     name: tags
     weight: -120
     url: /tags/
+
+  - identifier: category
+    name: categories
+    weight: -110
+    url: /categories

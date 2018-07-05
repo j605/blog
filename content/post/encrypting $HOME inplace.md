@@ -92,7 +92,7 @@ The previous section will add the device `/dev/mapper/home` which we will use in
 /dev/mapper/home  /home       ext4        rw,relatime,lazytime,data=ordered,nodev,nosuid  0 2
 
 # swapfile
-/home/swapfile                swap        defaults                                        0 0
+/home/swapfile    none        swap        defaults                                        0 0
 ```
 Most of these settings are opinionated, so I would suggest looking at `fstab(5)`
 and `ext4(5)` for explanations. This completes the loop to mount the encrypted device

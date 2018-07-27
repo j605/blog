@@ -16,7 +16,7 @@ distributions like Ubuntu and Fedora.
 # My old system
 I had moved away from `NetworkManager` one year back due to constant issues with connecting
 to enterprise Wi-Fi with logs and errors that were difficult to debug or fix. It was also
-difficult see where the failures occurred prompted me to move towards a more modular
+difficult to see where the failures occurred prompted me to move towards a more modular
 system.
 
 The hacked system did not have a manager on top and it was cobbled together with:

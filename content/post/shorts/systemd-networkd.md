@@ -5,7 +5,6 @@ tags:
   - archlinux
 categories:
   - dgplug
-draft: true
 ---
 
 `systemd-networkd` is a network manager that comes built in with Systemd. It has

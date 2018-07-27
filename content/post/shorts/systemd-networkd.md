@@ -35,8 +35,9 @@ continued to use it after figuring out the problem but I thought it was time to 
 
 # `systemd-networkd`
 It works similarly to how Systemd handles services. `networkd` uses INI style
-".network" configuration files. Look at the man page for `systemd.network` for more
-information.
+".network" configuration files. Look at the man page for
+[`systemd.network`](https://jlk.fjfi.cvut.cz/arch/manpagesman/core/systemd/systemd.network.5.en)
+for more information.
 
 My motivation was to seamlessly handle wired and wireless interfaces without dropping
 connection due to state changes. For this purpose I had two files,
@@ -66,7 +67,9 @@ RouteMetric=20
 ```
 
 You should start `systemd-networkd.service` and it should work with your existing
-`wpa_supplicant@wlp2s0b1.service` which should be setup separately.
+`wpa_supplicant@wlp2s0b1.service` which should be setup separately. Network interface
+names `eno1` and `wlp2s0b1` are predictable and persistent across reboots,  and are
+setup by [Systemd](https://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/).
 
 My DHCP issue was solved by `networkd` knowing about both networks and handling them
 properly. The other nice property is I can set route metrics in the configuration

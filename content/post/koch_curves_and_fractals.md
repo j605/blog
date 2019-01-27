@@ -6,9 +6,6 @@ tags:
   - plants
   - julia
 ---
-Note: footnotes are broken due to some web issues I don't understand, checkout
-https://github.com/gyorb/hugo-dusk/issues/21
-
 Fractals are never ending patterns found in nature that are impossible to
 describe in classical geometry. I was intrigued by this topic after a long time
 since I had programmed some `koch` curves for an exercise in the Think Python

@@ -12,9 +12,9 @@ since I had programmed some `koch` curves for an exercise in the Think Python
 book.
 
 Some pictures,
-![Example 1](creations/canvas.jpg)
+![Example 1](/creations/canvas.jpg)
 
-![Example 2](creations/creation2.jpg)
+![Example 2](/creations/creation2.jpg)
 and the code can be found on [github](https://github.com/j605/creations).
 
 The post on how to generate trees[^1]
@@ -50,10 +50,10 @@ gives examples of how trees are generated in this way. Furthermore, the system i
 parameterized to produced more realistic models of trees.
 
 This gives you a beautiful picture of an H-tree.
-![H-tree](creations/htree.png)
+![H-tree](/creations/htree.png)
 
 Instead of turning by 90° if you try 60°, a nice fractal is formed.
-![H-tree 60°](creations/htree-60.png)
+![H-tree 60°](/creations/htree-60.png)
 
 Julia code for the above drawings is provided below.
 ```julia

@@ -3,6 +3,8 @@ disablePathToLower: true
 languageCode: en-us
 title: Jagan's blog
 theme: dusk
+author:
+  name: Jagannathan Tiruvallur Eachambadi
 pygmentsCodefences: true
 pygmentsStyle: native
 disqusShortname: j605
@@ -17,6 +19,8 @@ params:
 
   # dusk theme
   email: jagannathante@gmail.com
+  github: j605
+  twitter: jagan605
   colors:
     # hugo-dusk colors
     background: "#101010" # background color for the site

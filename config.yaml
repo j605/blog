@@ -5,6 +5,8 @@ title: Jagan's blog
 theme: dusk
 author:
   name: Jagannathan Tiruvallur Eachambadi
+  nick: j605
+  email: jagannathante@gmail.com
 pygmentsCodefences: true
 pygmentsStyle: native
 disqusShortname: j605
@@ -21,6 +23,7 @@ params:
   email: jagannathante@gmail.com
   github: j605
   twitter: jagan605
+  microblog: j605
   colors:
     # hugo-dusk colors
     background: "#101010" # background color for the site

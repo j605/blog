@@ -7,7 +7,7 @@ tags:
 categories:
   - dgplug
 ---
-
+We had an introductory session on Ansible in #dgplug and these are some notes from the class.
 1. Learned about hosts file to create an inventory, https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html#hosts-and-groups
 
 2. Different connections (ssh and local for now). I had also tested it against a server running CentOS.

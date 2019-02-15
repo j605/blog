@@ -23,6 +23,7 @@ params:
   email: jagannathante@gmail.com
   github: j605
   twitter: jagan605
+  mastodon: "https://ieji.de/@j605"
   microblog: j605
   colors:
     # hugo-dusk colors

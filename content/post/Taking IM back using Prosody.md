@@ -6,7 +6,6 @@ tags:
   - IM
 categories:
   - dgplug
-draft: true
 ---
 The common way for most people to chat is using an app on their phone which typically one of [Whatsapp](https://whatsapp.com), [Messenger](https://messenger.com) or [Telegram](https://telegram.org).
 In the same vein we have apps like [Threema](https://threema.ch) and [Signal](https://signal.org) which are more popular in certain circles.
@@ -41,7 +40,7 @@ wget https://prosody.im/files/prosody-debian-packages.key -O- | sudo apt-key add
 ```
 and finally install the package using `apt`,
 ```
-sudo apt install prosody
+sudo apt update && sudo apt install prosody
 ```
 
 ## Configuring Prosody

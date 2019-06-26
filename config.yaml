@@ -52,3 +52,8 @@ menu:
     name: categories
     weight: -110
     url: /categories
+
+  - identifier: reading
+    name: reading
+    weight: -100
+    url: /books/

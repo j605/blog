@@ -13,12 +13,13 @@ The issue has become mainstream of sorts when UK's Internet Service Provider's A
 This allowed people to bypass DNS based blocking performed by ISPs which further cemented the idea that one needs encrypted DNS to avoid being censored or worse [MITMed](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) by an authoritarian government by using domain level blocking.
 I prefer DoT over the DoH protocol simply because of latency issues caused by dependency on TCP for the latter.
 DoT works similar to regular DNS over UDP but under a different port.
-One reason for vendors to prefer DoH is due to over eager firewalls blocking all ports except 80 and 443 used by HTTP and HTTPS by default.
+One reason for vendors to prefer DoH, is due to over eager firewalls blocking all ports except 80 and 443, used by HTTP and HTTPS by default.
+In this post, I want to show you how easy it is to get a secure and private DNS at the OS level, so you can do what Firefox does, but for all applications.
 Okay, lets get to the crux of the article!
 
 # Install and configure unbound
 Unbound is usually available in the repositories of operating systems, Linux and BSD.
-It is therefore advisable to get it from your package manager.
+Install it using your favourite package manager and we can begin!
 
 The next step is to configure unbound to use root servers to resolve DNS recursively.
 This is useful to first get acquainted with unbound and also to rule out issues if DoT fails to work.
@@ -33,15 +34,17 @@ server:
   auto-trust-anchor-file: trusted-key.key # Auto-update the trust anchors, used for DNSSEC
  root-hints: root.hints # download root.hints from https://www.internic.net/domain/named.cache
 ```
-It is important to take care of the permission of the directory so unbound can read and write to it.
+It is important we take care of directory permissions so unbound can read and write to it.
 You may have to manually change ownership of `/etc/unbound` using `chown`.
 Before starting the service, make sure to change `/etc/resolv.conf` to use the local nameserver run by unbound.
 ```conf
 # /etc/resolv.conf
 nameserver 127.0.0.1
 ```
-This step also requires some care if your distribution is handling this using `NetworkManager`, `systemd-resolved` or `openresolvconf`.
-Refer to your distribution specific documentation on how to handle this if you are unsure.
+This step also requires some care if your distribution is handling DNS using `NetworkManager`, `systemd-resolved` or `openresolvconf`.
+For `NetworkManager`, refer to configuration related to DNS in the [“main section”](https://developer.gnome.org/NetworkManager/stable/NetworkManager.conf.html).
+In the case of `systemd-resolved`, I would suggest you to just disable and import any local network related settings into unbound.
+In `openresolvconf`, we can use it with unbound as a [subscriber](https://jlk.fjfi.cvut.cz/arch/manpages/man/core/openresolv/resolvconf.conf.5.en#SUBSCRIBER_OPTIONS).
 After this is done, start the unbound service and check the logs for errors if any.
 You can use `drill` or `dig` to do DNS testing from the terminal. For example,
 ```
@@ -88,5 +91,5 @@ As can be seen the format for `forward-addr` in the case of DoT involves specify
 The name is checked against the host mentioned in the TLS certificate securing our connection.
 In this example I am using the host from (cz.nic)[https://www.nic.cz/odvr/], but other alternative exists from Cloudflare, Google and Quad9 to name a few.
 As before, check the configuration using `drill` after restarting the service.
-You can also check the syntax of the configuration file before restarting by using `unbound-checkconf` to prevent unnecessary round trips.
-Hopefully by the end of this you have a secure and private DNS setup!
+You can also check the syntax of the configuration file, before restarting, by using `unbound-checkconf` to prevent unnecessary round trips.
+Hopefully by the end of this post, you have a secure and private DNS setup!

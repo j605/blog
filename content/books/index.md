@@ -1,6 +1,7 @@
 ---
 title: "Reading List"
 date: 2019-06-26T08:48:41+02:00
+hide_rss: true
 ---
 
 I see that it is common to have a reading list.

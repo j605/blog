@@ -11,6 +11,7 @@ pygmentsCodefences: true
 pygmentsStyle: native
 SectionPagesMenu: "main"
 canonifyURLs: true
+hide_rss: false
 
 params:
   feedlinks: true           # Show feed links in the footer.

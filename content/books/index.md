@@ -11,7 +11,12 @@ You can see that even at this page where it asks for [webmentions](https://indie
 So my plan is to list the books I've read and try to do reviews if possible.
 
 # Currently Reading
-1. [i want 2 do project. tell me wat 2 do](http://www.shakthimaan.com/what-to-do.html) by Shakthi Kannan.
-2. Learning Optimism by Martin E. P. Seligman.
-3. The Women Who Walked Into Doors by Roddy Doyle.
-4. The Sigma Protocol by Robert Ludlum.
+* Beloved by Toni Morrison.
+* The Women Who Walked Into Doors by Roddy Doyle.
+
+# Read
+* [i want 2 do project. tell me wat 2 do](http://www.shakthimaan.com/what-to-do.html) by Shakthi Kannan.
+* Learning Optimism by Martin E. P. Seligman.
+
+# Shelved
+* The Sigma Protocol by Robert Ludlum. (Gotten bored of the genre for now)

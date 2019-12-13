@@ -11,12 +11,15 @@ You can see that even at this page where it asks for [webmentions](https://indie
 So my plan is to list the books I've read and try to do reviews if possible.
 
 # Currently Reading
-* Beloved by Toni Morrison.
+* Whose Story Is This? by Rebecca Solnit.
+* Infectious Greed by Frank Partnoy.
 * The Women Who Walked Into Doors by Roddy Doyle.
 
 # Read
 * [i want 2 do project. tell me wat 2 do](http://www.shakthimaan.com/what-to-do.html) by Shakthi Kannan.
 * Learning Optimism by Martin E. P. Seligman.
+* Beloved by Toni Morrison.
+* Cinderella Liberator by Rebecca Solnit.
 
 # Shelved
 * The Sigma Protocol by Robert Ludlum. (Gotten bored of the genre for now)

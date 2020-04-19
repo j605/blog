@@ -11,7 +11,7 @@ You can see that even at this page where it asks for [webmentions](https://indie
 So my plan is to list the books I've read and try to do reviews if possible.
 
 # Currently Reading
-* Whose Story Is This? by Rebecca Solnit.
+* Emotional Intelligence by Daniel Coleman.
 * Infectious Greed by Frank Partnoy.
 * The Women Who Walked Into Doors by Roddy Doyle.
 
@@ -20,6 +20,8 @@ So my plan is to list the books I've read and try to do reviews if possible.
 * Learning Optimism by Martin E. P. Seligman.
 * Beloved by Toni Morrison.
 * Cinderella Liberator by Rebecca Solnit.
+* Whose Story Is This? by Rebecca Solnit.
+* My life on the road by [Gloria Steinem](https://www.gloriasteinem.com/about).
 
 # Shelved
 * The Sigma Protocol by Robert Ludlum. (Gotten bored of the genre for now)

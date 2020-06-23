@@ -1,6 +1,6 @@
 ---
 title: "Reading List"
-date: 2019-06-26T08:48:41+02:00
+date: 2020-06-23T20:17:33+02:00
 hide_rss: true
 ---
 
@@ -13,7 +13,6 @@ So my plan is to list the books I've read and try to do reviews if possible.
 # Currently Reading
 * All About Love, New Visions by Bell Hooks.
 * Emotional Intelligence by Daniel Coleman.
-* Infectious Greed by Frank Partnoy.
 * The Women Who Walked Into Doors by Roddy Doyle.
 
 # Read
@@ -23,6 +22,10 @@ So my plan is to list the books I've read and try to do reviews if possible.
 * Cinderella Liberator by Rebecca Solnit.
 * Whose Story Is This? by Rebecca Solnit.
 * My life on the road by [Gloria Steinem](https://www.gloriasteinem.com/about).
+* Infectious Greed by Frank Partnoy.
+A good summary of events that led up to how companies cooked books in the end of 20th century.
+It is amazing that the fraudulent schemes described in the book are still being repeated in various forms.
+See the games played by WeWork for example.
 
 # Shelved
-* The Sigma Protocol by Robert Ludlum. (Gotten bored of the genre for now)
+* The Sigma Protocol by Robert Ludlum. (Gotten bored with the genre for now)

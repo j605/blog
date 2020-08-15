@@ -11,11 +11,13 @@ You can see that even at this page where it asks for [webmentions](https://indie
 So my plan is to list the books I've read and try to do reviews if possible.
 
 # Currently Reading
+
 * All About Love, New Visions by Bell Hooks.
-* Emotional Intelligence by Daniel Coleman.
-* The Women Who Walked Into Doors by Roddy Doyle.
+* Atomic Habits by James Clear.
+* How To Be a Woman by Caitlin Moran.
 
 # Read
+
 * [i want 2 do project. tell me wat 2 do](http://www.shakthimaan.com/what-to-do.html) by Shakthi Kannan.
 * Learning Optimism by Martin E. P. Seligman.
 * Beloved by Toni Morrison.
@@ -26,6 +28,9 @@ So my plan is to list the books I've read and try to do reviews if possible.
 A good summary of events that led up to how companies cooked books in the end of 20th century.
 It is amazing that the fraudulent schemes described in the book are still being repeated in various forms.
 See the games played by WeWork for example.
+* The Women Who Walked Into Doors by Roddy Doyle.
+* Emotional Intelligence by Daniel Coleman.
 
 # Shelved
+
 * The Sigma Protocol by Robert Ludlum. (Gotten bored with the genre for now)

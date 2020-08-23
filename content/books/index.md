@@ -14,7 +14,6 @@ So my plan is to list the books I've read and try to do reviews if possible.
 
 * All About Love, New Visions by Bell Hooks.
 * Atomic Habits by James Clear.
-* How To Be a Woman by Caitlin Moran.
 
 # Read
 
@@ -30,6 +29,7 @@ It is amazing that the fraudulent schemes described in the book are still being 
 See the games played by WeWork for example.
 * The Women Who Walked Into Doors by Roddy Doyle.
 * Emotional Intelligence by Daniel Coleman.
+* How To Be a Woman by Caitlin Moran.
 
 # Shelved
 

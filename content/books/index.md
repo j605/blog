@@ -13,7 +13,8 @@ So my plan is to list the books I've read and try to do reviews if possible.
 # Currently Reading
 
 * All About Love, New Visions by Bell Hooks.
-* Atomic Habits by James Clear.
+* Fast Food Nation by Eric Schlosser.
+* How to Read a Book by Mortimer J. Adler and Charles Van Doren.
 
 # Read
 
@@ -30,6 +31,7 @@ See the games played by WeWork for example.
 * The Women Who Walked Into Doors by Roddy Doyle.
 * Emotional Intelligence by Daniel Coleman.
 * How To Be a Woman by Caitlin Moran.
+* Atomic Habits by James Clear.
 
 # Shelved
 

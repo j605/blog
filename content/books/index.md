@@ -14,7 +14,7 @@ So my plan is to list the books I've read and try to do reviews if possible.
 
 * All About Love, New Visions by Bell Hooks.
 * How to Read a Book by Mortimer J. Adler and Charles Van Doren.
-* Romeo and Julia by Peter Schoenaerts (https://theateraz.be/onewebmedia/Romeo%20en%20Julia%20Affiche%20definitief.pdf).
+* [Romeo and Julia by Peter Schoenaerts](https://theateraz.be/onewebmedia/Romeo%20en%20Julia%20Affiche%20definitief.pdf).
 
 # Read
 

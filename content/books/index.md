@@ -13,8 +13,8 @@ So my plan is to list the books I've read and try to do reviews if possible.
 # Currently Reading
 
 * All About Love, New Visions by Bell Hooks.
-* Fast Food Nation by Eric Schlosser.
 * How to Read a Book by Mortimer J. Adler and Charles Van Doren.
+* Romeo and Julia by Peter Schoenaerts (https://theateraz.be/onewebmedia/Romeo%20en%20Julia%20Affiche%20definitief.pdf).
 
 # Read
 
@@ -32,6 +32,8 @@ See the games played by WeWork for example.
 * Emotional Intelligence by Daniel Coleman.
 * How To Be a Woman by Caitlin Moran.
 * Atomic Habits by James Clear.
+* Fast Food Nation by Eric Schlosser.
+* The Argonauts by Maggie Nelson.
 
 # Shelved
 
